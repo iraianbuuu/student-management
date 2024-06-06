@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Serverless Application using AWS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Serverless App (1)](https://github.com/Iraianbu-11/student-management/assets/129205333/2c3fde9e-f1a1-4f73-b41a-5e57ec25ba4e)
 
-## Available Scripts
 
-In the project directory, you can run:
+# Project Overview:
+Welcome to the ZStudent Management System project! This system serves as a comprehensive tool for managing student details efficiently. The project utilizes various AWS services including API Gateway, DynamoDB, Lambda Functions, IAM, CloudFront, and S3 for seamless operations. The frontend of the application is developed using React, with Material UI for CSS, offering an intuitive user interface. The system comprises four primary functionalities: Read, Delete, Create, and Update Student Details.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project Structure:
+# Frontend:
+The frontend of the application is developed using React.
+\
+Material UI is employed for CSS styling, ensuring a visually appealing interface.
+Four main pages:
+1. **Read**: Display student details.
+2. **Delete**: Remove student records from the system.
+3. **Create**: Add new student details.
+4. **Update**: Modify existing student information.
 
+<<<<<<< HEAD
 The page will reload when you make changes.\
 You may also see any lint errors in the console.`
+=======
+# Backend:
+>>>>>>> 458e2ea532fd3d1f5b378491afccf06bbe767930
 
-### `npm test`
+The backend functionalities are powered by AWS services.
+\
+**API Gateway**: Provides RESTful APIs to interact with the system.
+\
+**DynamoDB**: Serves as the database for storing student records.
+\
+**Lambda Functions**: Handle business logic, such as CRUD operations on student details.
+\
+**IAM (Identity and Access Management)**: Ensures secure access to AWS resources.
+\
+**CloudWatch**: Monitors and logs the AWS Services
+\
+**S3 (Simple Storage Service)**: Stores static assets and serves the frontend of the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Configure AWS services:
 
-### `npm run build`
+Set up API Gateway, DynamoDB, Lambda Functions, IAM roles, CloudFront, and S3 buckets according to your requirements.
+Ensure appropriate permissions are granted to access these services.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
