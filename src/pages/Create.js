@@ -28,7 +28,7 @@ const Create = () => {
   
     console.log(formattedData);
     Use your own API Endpoints
-    fetch('', {
+    fetch('https://x4vpu1ts34.execute-api.ap-south-1.amazonaws.com/Dev/addStudent', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
