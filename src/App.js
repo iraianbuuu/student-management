@@ -7,6 +7,7 @@ import Create from './pages/Create';
 import Update from './pages/Update';
 import Delete from './pages/Delete';
 function App() {
+
   return (
     <Router>
       <Navbar />

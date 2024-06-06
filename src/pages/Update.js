@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Box, TextField, Button, Grid, styled } from '@mui/material';
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Component = styled(Box)({
   width: '80%',
   margin: '50px auto',
@@ -19,19 +20,21 @@ const Update = () => {
           updateValue: newUsername
         }) 
     };
-    console.log(formattedData);
+      // eslint-disable-next-line no-unused-vars
       const response = await fetch('https://x4vpu1ts34.execute-api.ap-south-1.amazonaws.com/Dev/updateStudent', {
         method: 'PUT',
         body: JSON.stringify(formattedData)
       });
-      const data = await response.json();
-      console.log(data);
+      setRegNo("");
+      setNewUsername("");
+      toast.success("Student Updated Successfully");
     } catch (error) {
       console.error('Error updating user:', error);
     }
   };
 
   return (
+   <>
     <Component>
       <h1 style={{ textAlign: 'center' }}>Update Student Details</h1>
       <Grid container spacing={2} justifyContent="center">
@@ -66,6 +69,8 @@ const Update = () => {
         </Grid>
       </Grid>
     </Component>
+    <ToastContainer/>
+   </>
   );
 };
 
