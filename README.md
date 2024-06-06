@@ -18,13 +18,7 @@ Four main pages:
 3. **Create**: Add new student details.
 4. **Update**: Modify existing student information.
 
-<<<<<<< HEAD
-The page will reload when you make changes.\
-You may also see any lint errors in the console.`
-=======
 # Backend:
->>>>>>> 458e2ea532fd3d1f5b378491afccf06bbe767930
-
 The backend functionalities are powered by AWS services.
 \
 **API Gateway**: Provides RESTful APIs to interact with the system.
